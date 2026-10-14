@@ -1,0 +1,13 @@
+code/cpp/search
+__pycache__/
+lean/.lake/
+paper/*.aux
+paper/*.log
+paper/*.out
+paper/*.fls
+paper/*.fdb_latexmk
+paper/*.synctex.gz
+paper/figures/src/*.aux
+paper/figures/src/*.log
+paper/figures/src/*.fls
+paper/figures/src/*.fdb_latexmk

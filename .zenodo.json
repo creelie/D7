@@ -1,0 +1,45 @@
+{
+  "title": "Monochromatic Sublattices in Random and Cardinality Colourings of the Boolean Lattice",
+  "version": "1.0.0",
+  "upload_type": "publication",
+  "publication_type": "preprint",
+  "creators": [
+    {
+      "name": "Bhattacharjee, Deep",
+      "orcid": "0000-0003-0466-750X",
+      "affiliation": "Formerly, Electro-Gravitational Space Propulsion Laboratory (EGSPL), Bhubaneswar, Odisha 751030, India"
+    }
+  ],
+  "description": "<p>Let f(n) be the largest m such that every 2-colouring of the subsets of an n-element set has a monochromatic sublattice with m members (Erdős Problem 1183). In a uniformly random k-colouring the largest monochromatic sublattice has (1+o(1)) n log_k n members with high probability, so f(n) &lt;= (1+o(1)) n log_2 n. For colourings by cardinality the optimum is found for every n &lt;= 25, and with the lower bounds of arXiv:2610.02833 this gives f(n) for n &lt;= 22 and n = 24, with 13 &lt;= f(23) &lt;= 14 and 14 &lt;= f(25) &lt;= 15. The order of growth of f(n) remains open.</p><p>The archive contains the paper (PDF, LaTeX source with the figures as PNG, arXiv tarball), the optimal words and SAT certificates, the C++ and Python programs that produce and check them, and a Lean 4 development with Mathlib of the product construction.</p>",
+  "keywords": [
+    "Boolean lattice",
+    "sublattices",
+    "Ramsey theory",
+    "random colourings",
+    "Erdős problems",
+    "05D10",
+    "06D05"
+  ],
+  "license": "MIT",
+  "language": "eng",
+  "related_identifiers": [
+    {
+      "identifier": "https://github.com/creelie/D7",
+      "relation": "isSupplementedBy",
+      "resource_type": "software"
+    },
+    {
+      "identifier": "arXiv:2610.02833",
+      "relation": "references",
+      "resource_type": "publication-preprint",
+      "scheme": "arxiv"
+    },
+    {
+      "identifier": "10.5281/zenodo.23374973",
+      "relation": "references",
+      "resource_type": "software",
+      "scheme": "doi"
+    }
+  ],
+  "notes": "Corresponding author: d.bhattacharjee@erl-forschung.de; also itsdeep@live.com."
+}
