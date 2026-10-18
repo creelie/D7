@@ -13,7 +13,7 @@ authors:
     orcid: "https://orcid.org/0009-0002-2254-3914"
     affiliation: "Formerly, National Taiwan University, Taipei 106319, Taiwan"
     email: rai.bhattacharya.in@gmail.com
-version: 2.0.0
+version: 2.0.1
 doi: "10.5281/zenodo.23449604"
 identifiers:
   - type: doi
