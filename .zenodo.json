@@ -1,0 +1,34 @@
+{
+  "title": "Beyond the LLM: BLLM and the Entropy Law of Sound Recursive Self-Improvement: paper, Lean 4 formalization and verification code",
+  "description": "<p>A BLLM is a language model that keeps a modification of itself only after a randomized check of soundness epsilon accepts it. We prove that the least cost of certifying modifications of total cost A with at most theta expected false acceptances is (A/log(1/epsilon))(H(p) + log(1/theta)) up to an additive A, where H(p) is the entropy of the cost profile; Huffman codes give the exact optimum, Renyi entropies govern checks of polynomial order, a duality criterion decides which infinite cost sequences admit sound schedules, checking every step of a chain is exponentially cheaper than checking its outcome, an infinite self-improvement of finite cost can be sound exactly when the sum of a_n log(1/a_n) converges, and a branching takeoff needs check strength growing linearly in the generation. The results hold in a model with independent runs, perfect completeness and schedules fixed in advance.</p><p><code>preprintBeyondTheLLM/</code> holds the paper as a PDF; <code>BLLM/paper/</code> holds the REVTeX source with its figures; <code>dist/</code> holds the PDF, the LaTeX source zip and the arXiv tarball. <code>BLLM/lean/</code> is a Lean 4 and Mathlib project with thirty-nine theorems, each depending only on the axioms propext, Classical.choice and Quot.sound. <code>BLLM/checks/</code> contains independent checks in Python, C and C++ (33,505 checks); <code>BLLM/checks/run_all.sh</code> runs them and builds the Lean project. The probabilistic limit theorems are proved or cited in the paper and are not formalized.</p>",
+  "upload_type": "software",
+  "license": "mit",
+  "access_right": "open",
+  "creators": [
+    {
+      "name": "Bhattacharjee, Deep",
+      "orcid": "0000-0003-0466-750X",
+      "affiliation": "Formerly, Electro-Gravitational Space Propulsion Laboratory (EGSPL), Bhubaneswar, Odisha 751030, India; Formerly, University of Calcutta, Senate House, 87/1 College Street, Kolkata 700073, West Bengal, India"
+    },
+    {
+      "name": "Bhattacharya, Ushashi",
+      "orcid": "0009-0002-2254-3914",
+      "affiliation": "Formerly, National Taiwan University, Taipei 106319, Taiwan"
+    }
+  ],
+  "keywords": [
+    "recursive self-improvement",
+    "verification",
+    "entropy",
+    "Huffman codes",
+    "branching processes",
+    "Lean 4",
+    "68T01",
+    "68T05",
+    "94A17",
+    "60J80"
+  ],
+  "language": "eng",
+  "version": "1.0.0",
+  "notes": "Corresponding author: Deep Bhattacharjee, itsdeep@live.com (primary), d.bhattacharjee@erl-forschung.de. Ushashi Bhattacharya: rai.bhattacharya.in@gmail.com."
+}
