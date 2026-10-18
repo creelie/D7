@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+BLLM/lean/.lake/
+BLLM/paper/*.aux
+BLLM/paper/*.log
+BLLM/paper/*.out
+BLLM/paper/*.toc
+BLLM/paper/*.fls
+BLLM/paper/*.fdb_latexmk
+BLLM/paper/mainNotes.bib
+BLLM/paper/main.pdf
