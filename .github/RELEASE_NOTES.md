@@ -8,3 +8,5 @@ Files:
 - `BeyondTheLLM_final2-arxiv.tar.gz`: the arXiv source.
 
 Verification: `BLLM/lean` proves every finite inequality in 39 Lean 4 theorems with Mathlib, each depending only on propext, Classical.choice and Quot.sound; `BLLM/checks` runs 33,505 Python, C and C++ checks with no failure. `bash BLLM/checks/run_all.sh` runs them all.
+
+Citation: Zenodo, release v1.0.0, https://doi.org/10.5281/zenodo.23449605 (all versions https://doi.org/10.5281/zenodo.23449604).
