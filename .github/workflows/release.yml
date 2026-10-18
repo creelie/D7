@@ -58,5 +58,5 @@ jobs:
         run: |
           gh release create "$TAG" dist/* \
             --target "$TARGET" \
-            --title "$TAG: Beyond the LLM: BLLM and the Entropy Law of Sound Recursive Self-Improvement" \
+            --title "$TAG: BLLM, the entropy cost of sound self-improvement and a typed crossing network" \
             --notes-file .github/RELEASE_NOTES.md
