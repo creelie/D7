@@ -9,3 +9,5 @@ BLLM/paper/*.fls
 BLLM/paper/*.fdb_latexmk
 BLLM/paper/mainNotes.bib
 BLLM/paper/main.pdf
+BLLM/paper/figures/src/tikz/*.aux
+BLLM/paper/figures/src/tikz/*.log

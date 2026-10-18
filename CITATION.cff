@@ -1,6 +1,6 @@
 cff-version: 1.2.0
 message: "If you use this work, please cite it as below."
-title: "Beyond the LLM: BLLM and the Entropy Law of Sound Recursive Self-Improvement"
+title: "BLLM: The Entropy Cost of Sound Self-Improvement and a Typed Crossing Network Tested on Five Open Problems"
 type: software
 authors:
   - family-names: Bhattacharjee
@@ -13,8 +13,8 @@ authors:
     orcid: "https://orcid.org/0009-0002-2254-3914"
     affiliation: "Formerly, National Taiwan University, Taipei 106319, Taiwan"
     email: rai.bhattacharya.in@gmail.com
-version: 1.0.0
-doi: "10.5281/zenodo.23449605"
+version: 2.0.0
+doi: "10.5281/zenodo.23449604"
 identifiers:
   - type: doi
     value: "10.5281/zenodo.23449605"
@@ -31,12 +31,15 @@ keywords:
   - entropy
   - Huffman codes
   - branching processes
+  - automated discovery
   - Lean 4
 abstract: >-
-  A BLLM is a language model that keeps a modification of itself only after
-  a randomized check of soundness epsilon accepts it. We prove that the least
-  cost of certifying modifications of total cost A with at most theta expected
-  false acceptances is (A/log(1/epsilon))(H(p) + log(1/theta)) up to an
-  additive A, where H(p) is the entropy of the cost profile, and that an
-  infinite self-improvement of finite cost can be made sound exactly when the
-  sum of a_n log(1/a_n) converges.
+  We prove that certifying self-modifications of total cost A with at most
+  theta expected false acceptances costs (A/log(1/epsilon))(H(p) + log(1/theta))
+  up to an additive A, that a sound infinite self-improvement of finite cost
+  exists exactly when the sum of a_n log(1/a_n) converges, and that a proposer
+  needs at least exp(H_{1/2}(pi)) proposals, a bound that language models miss
+  by factors of 1.5 to 4.3. A typed crossing network with shared memory, run on
+  five open problems including the Yang-Mills mass gap and the Hodge
+  conjecture, reaches what its libraries can reach with half the checks;
+  Hebbian boosters add nothing, and none of the five problems is solved.

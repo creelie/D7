@@ -1,6 +1,6 @@
 {
-  "title": "Beyond the LLM: BLLM and the Entropy Law of Sound Recursive Self-Improvement: paper, Lean 4 formalization and verification code",
-  "description": "<p>A BLLM is a language model that keeps a modification of itself only after a randomized check of soundness epsilon accepts it. We prove that the least cost of certifying modifications of total cost A with at most theta expected false acceptances is (A/log(1/epsilon))(H(p) + log(1/theta)) up to an additive A, where H(p) is the entropy of the cost profile; Huffman codes give the exact optimum, Renyi entropies govern checks of polynomial order, a duality criterion decides which infinite cost sequences admit sound schedules, checking every step of a chain is exponentially cheaper than checking its outcome, an infinite self-improvement of finite cost can be sound exactly when the sum of a_n log(1/a_n) converges, and a branching takeoff needs check strength growing linearly in the generation. The results hold in a model with independent runs, perfect completeness and schedules fixed in advance.</p><p><code>preprintBeyondTheLLM/</code> holds the paper as a PDF; <code>BLLM/paper/</code> holds the REVTeX source with its figures; <code>dist/</code> holds the PDF, the LaTeX source zip and the arXiv tarball. <code>BLLM/lean/</code> is a Lean 4 and Mathlib project with thirty-nine theorems, each depending only on the axioms propext, Classical.choice and Quot.sound. <code>BLLM/checks/</code> contains independent checks in Python, C and C++ (33,505 checks); <code>BLLM/checks/run_all.sh</code> runs them and builds the Lean project. The probabilistic limit theorems are proved or cited in the paper and are not formalized.</p>",
+  "title": "BLLM: The Entropy Cost of Sound Self-Improvement and a Typed Crossing Network Tested on Five Open Problems: paper, Lean 4 formalization and verification code",
+  "description": "<p>A BLLM is a language model that keeps a modification of itself only after a randomized check of soundness epsilon accepts it. The paper proves that certifying modifications of total cost A with at most theta expected false acceptances costs (A/log(1/epsilon))(H(p) + log(1/theta)) up to an additive A, where H(p) is the entropy of the cost profile; that a sound infinite self-improvement of finite cost exists exactly when the sum of a_n log(1/a_n) converges; and that a proposer needs at least exp(H_{1/2}(pi)) proposals, a bound that language models miss by factors of 1.5 to 4.3. It also describes and measures a typed crossing network with shared memory, run on five open problems (the Yang-Mills mass gap, the Hodge conjecture, the standard conjecture of Lefschetz type, Chowla's conjecture and Erdos problem 1183): the network reaches what its libraries can reach with half the checks, Hebbian boosters add nothing, and none of the five problems is solved. The lattice mass gap for four-dimensional SU(2) on beta_W &lt; 1/3 is proved in the paper and has not been refereed.</p><p><code>preprintBeyondTheLLM/</code> holds the paper as a PDF; <code>BLLM/paper/</code> holds the REVTeX source with its figures; <code>dist/</code> holds the PDF, the LaTeX source zip and the arXiv tarball. <code>BLLM/lean/</code> is a Lean 4 and Mathlib project with fifty-nine theorems, each depending only on the axioms propext, Classical.choice and Quot.sound. <code>BLLM/checks/</code> contains independent checks in Python, C and C++ (55,271 checks); <code>BLLM/checks/run_all.sh</code> runs them and builds the Lean project. The benchmark, the crossing network and the logs of every run are in the package eBLLM, version 2.0.0, doi:10.5281/zenodo.23455686.</p>",
   "upload_type": "software",
   "license": "mit",
   "access_right": "open",
@@ -20,15 +20,24 @@
     "recursive self-improvement",
     "verification",
     "entropy",
+    "automated discovery",
     "Huffman codes",
     "branching processes",
     "Lean 4",
-    "68T01",
     "68T05",
+    "68T20",
     "94A17",
     "60J80"
   ],
   "language": "eng",
-  "version": "1.0.0",
-  "notes": "Corresponding author: Deep Bhattacharjee, itsdeep@live.com (primary), d.bhattacharjee@erl-forschung.de. Ushashi Bhattacharya: rai.bhattacharya.in@gmail.com."
+  "version": "2.0.0",
+  "notes": "Corresponding author: Deep Bhattacharjee, itsdeep@live.com (primary), d.bhattacharjee@erl-forschung.de. Ushashi Bhattacharya: rai.bhattacharya.in@gmail.com.",
+  "related_identifiers": [
+    {
+      "identifier": "10.5281/zenodo.23455686",
+      "relation": "isSupplementedBy",
+      "resource_type": "software",
+      "scheme": "doi"
+    }
+  ]
 }
