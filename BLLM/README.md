@@ -1,5 +1,8 @@
 # BLLM: the entropy law of sound recursive self-improvement
 
+> This folder holds the earlier versions of the paper. The current version, its source and its
+> engine are in [creelie/eBLLM](https://github.com/creelie/eBLLM) (folder `paper/bllm`).
+
 Source, formal proofs and checks of the paper "Beyond the LLM: BLLM and the
 Entropy Law of Sound Recursive Self-Improvement" by Deep Bhattacharjee and
 Ushashi Bhattacharya. The compiled paper is
